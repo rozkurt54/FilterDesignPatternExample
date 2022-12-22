@@ -13,7 +13,7 @@ public class WhiteVehicleFilter implements VehicleFilter {
   public List<Vehicle> filter(List<Vehicle> vehicleList) {
     List<Vehicle> filteredVehicle = new ArrayList<>();
     for(Vehicle v : vehicleList) {
-      if(v.getColorType().equals(ColorType.BLACK)) {
+      if(v.getColorType().equals(ColorType.WHITE)) {
         filteredVehicle.add(v);
       }
     }

@@ -13,7 +13,7 @@ public class TruckVehicleFilter implements VehicleFilter {
   public List<Vehicle> filter(List<Vehicle> vehicleList) {
     List<Vehicle> filteredVehicle = new ArrayList<>();
     for(Vehicle v : vehicleList) {
-      if(v.getVehicleType().equals(VehicleType.BIKE)) {
+      if(v.getVehicleType().equals(VehicleType.TRUCK)) {
         filteredVehicle.add(v);
       }
     }

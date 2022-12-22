@@ -1,4 +1,6 @@
-package com.example.Vehicle;
+package com.example.Vehicle.abstracts;
+
+import com.example.Vehicle.Vehicle;
 
 import java.util.List;
 

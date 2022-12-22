@@ -7,13 +7,13 @@ import com.example.Vehicle.abstracts.VehicleFilter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TruckVehicleFilter implements VehicleFilter {
+public class CarVehicleFilter implements VehicleFilter {
 
   @Override
   public List<Vehicle> filter(List<Vehicle> vehicleList) {
     List<Vehicle> filteredVehicle = new ArrayList<>();
     for(Vehicle v : vehicleList) {
-      if(v.getVehicleType().equals(VehicleType.TRUCK)) {
+      if(v.getVehicleType().equals(VehicleType.CAR)) {
         filteredVehicle.add(v);
       }
     }
